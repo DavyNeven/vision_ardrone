@@ -1,0 +1,3 @@
+repository='external project URL'
+module='/home/davy/catkin_ws/src/vision_ardrone/thirdparty/thirdparty.tar.gz'
+tag=''

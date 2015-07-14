@@ -1,0 +1,12 @@
+<launch>
+  <node name="drone_gui" pkg="vision_ardrone" type="drone_gui" respawn="false">
+  </node>
+  <node name="ardrone_controller" pkg="vision_ardrone" type="ardrone_controller" respawn="true">
+  </node>
+  <node name="ardrone_ub_detector" pkg="vision_ardrone" type="ardrone_ub_detector" respawn="true">
+  </node>
+  <node name="ardrone_face_detector" pkg="vision_ardrone" type="ardrone_face_detector" respawn="true">
+  </node>
+    <node name="ardrone_recognizer" pkg="vision_ardrone" type="ardrone_recognizer" respawn="true">
+    </node>
+</launch>

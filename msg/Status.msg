@@ -1,0 +1,20 @@
+uint8 TAKING_OFF=0
+uint8 LANDING=1
+uint8 HOVERING=2
+uint8 TRACKING_UB=3
+uint8 TRACKING_FACE=4
+uint8 CIRCLING=5
+uint8 DETECTING=6
+uint8 TRACKING=7
+uint8 IDLE=8
+uint8 COLLECT_FACES=9
+uint8 RECOGNIZE=10
+
+uint8 status
+
+uint8 UB_D=0
+uint8 FACE_D=1
+uint8 CONTROLLER=2
+uint8 RECOGNIZER=3
+
+uint8 type
